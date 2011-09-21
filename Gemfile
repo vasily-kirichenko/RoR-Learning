@@ -3,6 +3,10 @@ source 'http://rubygems.org'
 gem 'rails', '3.1.0'
 gem 'rake', '0.9.2'
 gem 'haml'
+gem 'rspec-rails'
+gem 'rspec-core'
+gem 'rspec-expectations'
+gem 'rspec'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'

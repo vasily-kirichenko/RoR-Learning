@@ -1,4 +1,6 @@
 Depot::Application.routes.draw do
+  resources :items
+
   resources :products
 
   # The priority is based upon order of creation:
