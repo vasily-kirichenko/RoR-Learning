@@ -18,3 +18,16 @@
 %br
 
 = link_to 'New Product', new_product_path
+
+%table{border: "1px"}
+  %tr
+    %td{width: 100}
+      %center
+        %b= "i"
+    %td{width: 300}
+      %center
+        %b= "time"
+  - (10).times do |i|
+    %tr
+      %td= i
+      %td= Time.now
